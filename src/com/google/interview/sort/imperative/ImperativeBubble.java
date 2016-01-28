@@ -1,4 +1,4 @@
-package com.google.interview.sort;
+package com.google.interview.sort.imperative;
 
 public class ImperativeBubble {
     /**

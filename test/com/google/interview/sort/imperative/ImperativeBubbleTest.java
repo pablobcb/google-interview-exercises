@@ -1,11 +1,12 @@
-package com.google.interview.sort;
+package com.google.interview.sort.imperative;
 
+import com.google.interview.sort.TestUtils;
+import com.google.interview.sort.imperative.ImperativeBubble;
 import org.junit.Test;
 
-import static com.google.interview.sort.ImperativeBubble.*;
 import static org.junit.Assert.*;
 
-public class ImperativeBubbleTest extends TestUtils{
+public class ImperativeBubbleTest extends TestUtils {
     @Test(expected = AssertionError.class)
     public void comparingWithNullShouldThrowAnException() throws Exception {
         assertArrayEquals(null, ImperativeBubble.sort(this.ORDERED));
