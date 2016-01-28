@@ -1,19 +1,23 @@
 package com.google.interview.sort;
+import static org.junit.Assert.*;
 
 import com.google.interview.util.ArrayUtils;
 import org.junit.Test;
 
-import static com.google.interview.util.ArrayUtils.compareArrays;
-
 public class BubbleTest {
 
-    @Test
-    public void comparingEmptyArraysShouldFail() throws Exception {
-        assert compareArrays(Bubble.sort(ArrayUtils.EMPTY), ArrayUtils.EMPTY);
+    @Test(expected = AssertionError.class)
+    public void comparingWithNullShouldThrowAnException() throws Exception {
+        assertArrayEquals(null, Bubble.sort(ArrayUtils.ORDERED));
     }
 
-    @Test(expected = NullPointerException.class)
-    public void comparingWithNullShouldThrowAnException() throws Exception {
-        compareArrays(Bubble.sort(ArrayUtils.EMPTY), null);
+    @Test
+    public void comparingEmptyArraysShouldSucceed() throws Exception {
+        assertArrayEquals(Bubble.sort(ArrayUtils.EMPTY), ArrayUtils.EMPTY);
+    }
+
+    @Test
+    public void comparingSingleElementsArray() throws Exception {
+        assertArrayEquals(Bubble.sort(new int[]{1}), ArrayUtils.UNIT);
     }
 }

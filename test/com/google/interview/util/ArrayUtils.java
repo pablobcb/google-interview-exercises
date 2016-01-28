@@ -8,22 +8,6 @@ public class ArrayUtils {
 
     public static final int[] EMPTY     = new int[]{};
 
-    public static boolean compareArrays(int[] array1, int[] array2) throws NullPointerException {
-        boolean isEqual = true;
+    public static final int[] UNIT      = new int[]{1};
 
-        if(array1 == null || array2 == null){
-            throw new NullPointerException();
-        }
-
-        if (array1.length != array2.length)
-            isEqual = false;
-        else
-            for (int i = 0; i < array2.length; i++){
-                if(array2[i] != array1[i]){
-                    isEqual = false;
-                }
-            }
-
-        return isEqual;
-    }
 }
