@@ -1,6 +1,6 @@
 package com.google.interview.sort.functional;
 
-public class FunctionalBubble {
+public class FunctionalBubbleSort {
 
     /**
      * Swaps sequentially the next 2 slots of the list unless they are ordered

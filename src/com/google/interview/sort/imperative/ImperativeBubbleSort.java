@@ -1,6 +1,6 @@
 package com.google.interview.sort.imperative;
 
-public class ImperativeBubble {
+public class ImperativeBubbleSort {
     /**
      * public method which starts the sorting procedure
      *

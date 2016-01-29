@@ -1,39 +1,38 @@
 package com.google.interview.sort.imperative;
 
 import com.google.interview.sort.TestUtils;
-import com.google.interview.sort.imperative.ImperativeBubble;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ImperativeBubbleTest extends TestUtils {
+public class ImperativeBubbleSortTest extends TestUtils {
     @Test(expected = NullPointerException.class)
     public void comparingWithNullShouldThrowAnException() throws Exception {
-        ImperativeBubble.sort(null);
+        ImperativeBubbleSort.sort(null);
     }
 
     @Test
     public void comparingEmptyArraysShouldSucceed() throws Exception {
-        assertArrayEquals(ImperativeBubble.sort(this.EMPTY), this.EMPTY);
+        assertArrayEquals(ImperativeBubbleSort.sort(this.EMPTY), this.EMPTY);
     }
 
     @Test
     public void comparingSingleElementsArrayShouldSucceed() throws Exception {
-        assertArrayEquals(ImperativeBubble.sort(new int[]{1}), this.UNIT);
+        assertArrayEquals(ImperativeBubbleSort.sort(new int[]{1}), this.UNIT);
     }
 
     @Test
     public void comparingTwoElementsArrayShouldSucceed() throws Exception {
-        assertArrayEquals(ImperativeBubble.sort(new int[]{252, 111}), this.TWO_ELEMENTS_ARRAY);
+        assertArrayEquals(ImperativeBubbleSort.sort(new int[]{252, 111}), this.TWO_ELEMENTS_ARRAY);
     }
 
     @Test
     public void arrayShouldBeOrderedAfterBubbleSort() throws Exception {
-        assertArrayEquals(ImperativeBubble.sort(this.UNORDERED), this.ORDERED);
+        assertArrayEquals(ImperativeBubbleSort.sort(this.UNORDERED), this.ORDERED);
     }
 
     @Test
     public void orderedArrayShouldStillBeOrderedAfterBubbleSort() throws Exception {
-        assertArrayEquals(ImperativeBubble.sort(this.ORDERED), this.ORDERED);
+        assertArrayEquals(ImperativeBubbleSort.sort(this.ORDERED), this.ORDERED);
     }
 }

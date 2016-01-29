@@ -1,6 +1,6 @@
 package com.google.interview.sort.imperative;
 
-public class ImperativeInsertion {
+public class ImperativeInsertionSort {
 
     private static void insertInPlace(final int[] array, int sortedElementsLeft){
         while((sortedElementsLeft > 0) && (array[sortedElementsLeft - 1] > array[sortedElementsLeft])){

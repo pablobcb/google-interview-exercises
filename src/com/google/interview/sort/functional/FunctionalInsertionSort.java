@@ -1,7 +1,7 @@
 package com.google.interview.sort.functional;
 
 
-public class FunctionaInsertion {
+public class FunctionalInsertionSort {
     private static int [] insertInPlace(final int[] array, final int sortedElementsLeft){
 
         final boolean hasNext = sortedElementsLeft > 0;
