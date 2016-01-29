@@ -1,7 +1,8 @@
 package com.google.interview.sort.functional;
 
-public class FunctionaInsertion {
+import java.util.Arrays;
 
+public class FunctionaInsertion {
     private static int [] insertSorted(final int[] array, final int nextElemIndex, final int sortedElementsLeft){
         if(! ((array[nextElemIndex - 1] > array[nextElemIndex]) && sortedElementsLeft > 0)){
             return array;
