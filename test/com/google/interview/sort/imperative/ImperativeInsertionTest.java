@@ -2,14 +2,15 @@ package com.google.interview.sort.imperative;
 
 import com.google.interview.sort.TestUtils;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 
 import static org.junit.Assert.*;
 
 public class ImperativeInsertionTest extends TestUtils{
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = NullPointerException.class)
     public void comparingWithNullShouldThrowAnException() throws Exception {
-        assertArrayEquals(null, ImperativeInsertion.sort(this.ORDERED));
+        ImperativeInsertion.sort(null);
     }
 
     @Test

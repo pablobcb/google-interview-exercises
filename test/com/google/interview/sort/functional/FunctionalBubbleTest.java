@@ -6,9 +6,9 @@ import org.junit.Test;
 
 public class FunctionalBubbleTest extends TestUtils {
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = NullPointerException.class)
     public void comparingWithNullShouldThrowAnException() throws Exception {
-        assertArrayEquals(null, FunctionalBubble.sort(this.ORDERED));
+        FunctionalBubble.sort(null);
     }
 
     @Test

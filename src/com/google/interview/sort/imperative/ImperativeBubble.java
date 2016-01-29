@@ -10,7 +10,7 @@ public class ImperativeBubble {
      */
     public static int[] sort(final int[] array){
         if(array == null) {
-            throw new NullPointerException("'unorderedList' cannot be null");
+            throw new NullPointerException("'array' cannot be null");
         }
 
         boolean hasSwapped = false;
@@ -21,23 +21,17 @@ public class ImperativeBubble {
 
                 boolean isGreater = array[currentIndex -1] > array[currentIndex];
                 if(isGreater){
-
                     int biggerElement = array[currentIndex -1];
-
                     array[currentIndex -1] = array[currentIndex];
-
                     array[currentIndex] = biggerElement;
-
                     hasSwapped = true;
                 }
             }
-
             if (!hasSwapped) {
             /* array finally sorted */
                 return array;
             }
         }
-
         return array;
     }
 }

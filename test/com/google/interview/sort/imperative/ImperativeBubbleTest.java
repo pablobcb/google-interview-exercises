@@ -7,9 +7,9 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class ImperativeBubbleTest extends TestUtils {
-    @Test(expected = AssertionError.class)
+    @Test(expected = NullPointerException.class)
     public void comparingWithNullShouldThrowAnException() throws Exception {
-        assertArrayEquals(null, ImperativeBubble.sort(this.ORDERED));
+        ImperativeBubble.sort(null);
     }
 
     @Test

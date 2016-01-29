@@ -1,32 +1,38 @@
 package com.google.interview.sort.functional;
 
-import java.util.Arrays;
 
 public class FunctionaInsertion {
-    private static int [] insertSorted(final int[] array, final int nextElemIndex, final int sortedElementsLeft){
-        if(! ((array[nextElemIndex - 1] > array[nextElemIndex]) && sortedElementsLeft > 0)){
+    private static int [] insertInPlace(final int[] array, final int sortedElementsLeft){
+
+        final boolean hasNext = sortedElementsLeft > 0;
+        if(! ( hasNext && (array[sortedElementsLeft - 1] > array[sortedElementsLeft]))){
             return array;
         }
 
-        int bigger = array[nextElemIndex - 1];
-        array[nextElemIndex - 1] = array[nextElemIndex];
-        array[nextElemIndex] = bigger;
+        int bigger = array[sortedElementsLeft - 1];
+        array[sortedElementsLeft - 1] = array[sortedElementsLeft];
+        array[sortedElementsLeft] = bigger;
 
-        return insertSorted(array, nextElemIndex -1, 0);
+        return insertInPlace(array, sortedElementsLeft -1);
     }
 
     private static int[] insertionSort(final int[] array, final int numSortedElems){
-        final int[] arrayWithInsertedElement = insertSorted(array, numSortedElems, numSortedElems);
+        if(numSortedElems > array.length - 1) {
+            return array;
+        }
 
+        final int[] arrayWithInsertedElement = insertInPlace(array, numSortedElems);
 
         return insertionSort(arrayWithInsertedElement, numSortedElems + 1);
     }
 
-
     public static int[] sort(final int[] array){
-
         if(array == null) {
-            throw new NullPointerException("'unorderedList' cannot be null");
+            throw new NullPointerException("'array' cannot be null");
+        }
+
+        if(array.length == 0 || array.length == 1) {
+            return array;
         }
 
         return insertionSort(array, 1);

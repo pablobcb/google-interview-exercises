@@ -7,9 +7,9 @@ import static org.junit.Assert.*;
 
 public class FunctionaInsertionTest extends TestUtils{
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = NullPointerException.class)
     public void comparingWithNullShouldThrowAnException() throws Exception {
-        assertArrayEquals(null, FunctionaInsertion.sort(this.ORDERED));
+        FunctionaInsertion.sort(null);
     }
 
     @Test
