@@ -1,6 +1,6 @@
 package com.google.interview.sort.functional;
 
-public class FuctionalBubble {
+public class FunctionalBubble {
 
     /**
      * Swaps sequentially the next 2 slots of the list unless they are ordered
@@ -57,10 +57,6 @@ public class FuctionalBubble {
     public static int[] sort(final int[] unorderedArray){
         if(unorderedArray == null) {
             throw new NullPointerException("'unorderedList' cannot be null");
-        }
-
-        if(unorderedArray.length == 0 || unorderedArray.length == 1) {
-            return unorderedArray;
         }
 
         //unorderedList has at least 2 elements

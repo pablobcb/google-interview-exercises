@@ -13,10 +13,6 @@ public class ImperativeBubble {
             throw new NullPointerException("'unorderedList' cannot be null");
         }
 
-        if(array.length == 0 || array.length == 1) {
-            return array;
-        }
-
         boolean hasSwapped = false;
 
         for(int size = array.length ; size > 1 ; size--){
