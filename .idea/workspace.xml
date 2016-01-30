@@ -4,19 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/google/interview/sort/functional/FunctionalInsertionSort.java" line="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea57ef73-8411-4416-8db4-0c1179c0c2df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/google/interview/sort/imperative/ImperativeSelectionSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeSelectionSortTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/google/interview/sort/functional/FunctionaInsertion.java" afterPath="$PROJECT_DIR$/src/com/google/interview/sort/functional/FunctionalInsertionSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/google/interview/sort/functional/FunctionalBubble.java" afterPath="$PROJECT_DIR$/src/com/google/interview/sort/functional/FunctionalBubbleSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/google/interview/sort/imperative/ImperativeBubble.java" afterPath="$PROJECT_DIR$/src/com/google/interview/sort/imperative/ImperativeBubbleSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/google/interview/sort/imperative/ImperativeInsertion.java" afterPath="$PROJECT_DIR$/src/com/google/interview/sort/imperative/ImperativeInsertionSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/com/google/interview/sort/functional/FunctionaInsertionTest.java" afterPath="$PROJECT_DIR$/test/com/google/interview/sort/functional/FunctionalInsertionSortTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/com/google/interview/sort/functional/FunctionalBubbleTest.java" afterPath="$PROJECT_DIR$/test/com/google/interview/sort/functional/FunctionalBubbleSortTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeBubbleTest.java" afterPath="$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeBubbleSortTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeInsertionTest.java" afterPath="$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeInsertionSortTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="ea57ef73-8411-4416-8db4-0c1179c0c2df" name="Default" comment="" />
     <ignored path="GoogleInterview.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,80 +29,30 @@
     <favorites_list name="GoogleInterview" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4012987">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="FunctionalInsertionSortTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/functional/FunctionalInsertionSortTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FunctionalBubbleSortTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/functional/FunctionalBubbleSortTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.05940594">
-                  <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ImperativeInsertionSortTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeInsertionSortTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ImperativeBubbleSortTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeBubbleSortTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ImperativeSelectionSortTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeSelectionSortTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="ImperativeSelectionSort.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/google/interview/sort/imperative/ImperativeSelectionSort.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7128713">
-                  <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="ImperativeMergeSortTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeMergeSortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImperativeMergeSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/google/interview/sort/imperative/ImperativeMergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.14851485">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -159,8 +97,10 @@
         <option value="$PROJECT_DIR$/test/com/google/interview/sort/functional/FunctionalInsertionTest.java" />
         <option value="$PROJECT_DIR$/src/com/google/interview/sort/imperative/ImperativeSelectionSort.java" />
         <option value="$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeSelectionSortTest.java" />
-        <option value="$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeInsertionSortTest.java" />
         <option value="$PROJECT_DIR$/test/com/google/interview/sort/functional/FunctionalInsertionSortTest.java" />
+        <option value="$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeMergeSortTest.java" />
+        <option value="$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeInsertionSortTest.java" />
+        <option value="$PROJECT_DIR$/src/com/google/interview/sort/imperative/ImperativeMergeSort.java" />
       </list>
     </option>
   </component>
@@ -291,28 +231,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GoogleInterview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GoogleInterview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -340,10 +258,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -377,8 +291,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ImperativeSelectionSortTest">
-    <configuration default="false" name="ImperativeSelectionSortTest.comparingTwoElementsArrayShouldSucceed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ImperativeMergeSortTest.comparingEmptyArraysShouldSucceed">
+    <configuration default="false" name="ImperativeMergeSortTest.comparingTwoElementsArrayShouldSucceed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.google.interview.sort.imperative.*" />
@@ -389,7 +303,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.google.interview.sort.imperative" />
-      <option name="MAIN_CLASS_NAME" value="com.google.interview.sort.imperative.ImperativeSelectionSortTest" />
+      <option name="MAIN_CLASS_NAME" value="com.google.interview.sort.imperative.ImperativeMergeSortTest" />
       <option name="METHOD_NAME" value="comparingTwoElementsArrayShouldSucceed" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -404,7 +318,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ImperativeSelectionSortTest.comparingSingleElementsArrayShouldSucceed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ImperativeMergeSortTest.arrayShouldBeOrderedAfterInsertionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.google.interview.sort.imperative.*" />
@@ -415,33 +329,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.google.interview.sort.imperative" />
-      <option name="MAIN_CLASS_NAME" value="com.google.interview.sort.imperative.ImperativeSelectionSortTest" />
-      <option name="METHOD_NAME" value="comparingSingleElementsArrayShouldSucceed" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ImperativeSelectionSortTest.arrayShouldBeOrderedAfterInsertionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.google.interview.sort.imperative.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="GoogleInterview" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.google.interview.sort.imperative" />
-      <option name="MAIN_CLASS_NAME" value="com.google.interview.sort.imperative.ImperativeSelectionSortTest" />
+      <option name="MAIN_CLASS_NAME" value="com.google.interview.sort.imperative.ImperativeMergeSortTest" />
       <option name="METHOD_NAME" value="arrayShouldBeOrderedAfterInsertionSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -456,7 +344,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ImperativeSelectionSortTest.comparingEmptyArraysShouldSucceed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ImperativeMergeSortTest.orderedArrayShouldStillBeOrderedAfterInsertionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.google.interview.sort.imperative.*" />
@@ -467,8 +355,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.google.interview.sort.imperative" />
-      <option name="MAIN_CLASS_NAME" value="com.google.interview.sort.imperative.ImperativeSelectionSortTest" />
-      <option name="METHOD_NAME" value="comparingEmptyArraysShouldSucceed" />
+      <option name="MAIN_CLASS_NAME" value="com.google.interview.sort.imperative.ImperativeMergeSortTest" />
+      <option name="METHOD_NAME" value="orderedArrayShouldStillBeOrderedAfterInsertionSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -482,7 +370,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ImperativeSelectionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ImperativeMergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.google.interview.sort.imperative.*" />
@@ -493,9 +381,35 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.google.interview.sort.imperative" />
-      <option name="MAIN_CLASS_NAME" value="com.google.interview.sort.imperative.ImperativeSelectionSortTest" />
+      <option name="MAIN_CLASS_NAME" value="com.google.interview.sort.imperative.ImperativeMergeSortTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ImperativeMergeSortTest.comparingEmptyArraysShouldSucceed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.google.interview.sort.imperative.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="GoogleInterview" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.google.interview.sort.imperative" />
+      <option name="MAIN_CLASS_NAME" value="com.google.interview.sort.imperative.ImperativeMergeSortTest" />
+      <option name="METHOD_NAME" value="comparingEmptyArraysShouldSucceed" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -764,20 +678,20 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ImperativeSelectionSortTest.comparingTwoElementsArrayShouldSucceed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in GoogleInterview" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ImperativeSelectionSortTest.comparingSingleElementsArrayShouldSucceed" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ImperativeSelectionSortTest.arrayShouldBeOrderedAfterInsertionSort" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ImperativeSelectionSortTest.comparingEmptyArraysShouldSucceed" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ImperativeSelectionSortTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in GoogleInterview" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ImperativeMergeSortTest.comparingTwoElementsArrayShouldSucceed" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ImperativeMergeSortTest.arrayShouldBeOrderedAfterInsertionSort" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ImperativeMergeSortTest.orderedArrayShouldStillBeOrderedAfterInsertionSort" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ImperativeMergeSortTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ImperativeMergeSortTest.comparingEmptyArraysShouldSucceed" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ImperativeSelectionSortTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ImperativeSelectionSortTest.arrayShouldBeOrderedAfterInsertionSort" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ImperativeSelectionSortTest.comparingTwoElementsArrayShouldSucceed" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ImperativeSelectionSortTest.comparingSingleElementsArrayShouldSucceed" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ImperativeSelectionSortTest.comparingEmptyArraysShouldSucceed" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ImperativeMergeSortTest.comparingEmptyArraysShouldSucceed" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ImperativeMergeSortTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ImperativeMergeSortTest.orderedArrayShouldStillBeOrderedAfterInsertionSort" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ImperativeMergeSortTest.arrayShouldBeOrderedAfterInsertionSort" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ImperativeMergeSortTest.comparingTwoElementsArrayShouldSucceed" />
       </list>
     </recent_temporary>
   </component>
@@ -792,35 +706,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ImperativeSelectionSortTest - 2016.01.29 at 19h 11m 53s.xml">
-      <configuration name="ImperativeSelectionSortTest" configurationId="JUnit" />
+    <history-entry file="ImperativeMergeSortTest - 2016.01.29 at 22h 23m 41s.xml">
+      <configuration name="ImperativeMergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImperativeSelectionSortTest - 2016.01.29 at 19h 11m 57s.xml">
-      <configuration name="ImperativeSelectionSortTest" configurationId="JUnit" />
+    <history-entry file="ImperativeMergeSortTest_arrayShouldBeOrderedAfterInsertionSort - 2016.01.29 at 22h 23m 33s.xml">
+      <configuration name="ImperativeMergeSortTest.arrayShouldBeOrderedAfterInsertionSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImperativeSelectionSortTest_arrayShouldBeOrderedAfterInsertionSort - 2016.01.29 at 19h 04m 54s.xml">
-      <configuration name="ImperativeSelectionSortTest.arrayShouldBeOrderedAfterInsertionSort" configurationId="JUnit" />
+    <history-entry file="ImperativeMergeSortTest_comparingEmptyArraysShouldSucceed - 2016.01.29 at 22h 55m 52s.xml">
+      <configuration name="ImperativeMergeSortTest.comparingEmptyArraysShouldSucceed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImperativeSelectionSortTest_arrayShouldBeOrderedAfterInsertionSort - 2016.01.29 at 19h 06m 27s.xml">
-      <configuration name="ImperativeSelectionSortTest.arrayShouldBeOrderedAfterInsertionSort" configurationId="JUnit" />
+    <history-entry file="ImperativeMergeSortTest_comparingTwoElementsArrayShouldSucceed - 2016.01.29 at 22h 12m 31s.xml">
+      <configuration name="ImperativeMergeSortTest.comparingTwoElementsArrayShouldSucceed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImperativeSelectionSortTest_arrayShouldBeOrderedAfterInsertionSort - 2016.01.29 at 19h 08m 06s.xml">
-      <configuration name="ImperativeSelectionSortTest.arrayShouldBeOrderedAfterInsertionSort" configurationId="JUnit" />
+    <history-entry file="ImperativeMergeSortTest_comparingTwoElementsArrayShouldSucceed - 2016.01.29 at 22h 13m 34s.xml">
+      <configuration name="ImperativeMergeSortTest.comparingTwoElementsArrayShouldSucceed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImperativeSelectionSortTest_arrayShouldBeOrderedAfterInsertionSort - 2016.01.29 at 19h 11m 32s.xml">
-      <configuration name="ImperativeSelectionSortTest.arrayShouldBeOrderedAfterInsertionSort" configurationId="JUnit" />
+    <history-entry file="ImperativeMergeSortTest_comparingTwoElementsArrayShouldSucceed - 2016.01.29 at 22h 13m 52s.xml">
+      <configuration name="ImperativeMergeSortTest.comparingTwoElementsArrayShouldSucceed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImperativeSelectionSortTest_arrayShouldBeOrderedAfterInsertionSort - 2016.01.29 at 19h 11m 36s.xml">
-      <configuration name="ImperativeSelectionSortTest.arrayShouldBeOrderedAfterInsertionSort" configurationId="JUnit" />
+    <history-entry file="ImperativeMergeSortTest_comparingTwoElementsArrayShouldSucceed - 2016.01.29 at 22h 21m 31s.xml">
+      <configuration name="ImperativeMergeSortTest.comparingTwoElementsArrayShouldSucceed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImperativeSelectionSortTest_comparingEmptyArraysShouldSucceed - 2016.01.29 at 19h 04m 45s.xml">
-      <configuration name="ImperativeSelectionSortTest.comparingEmptyArraysShouldSucceed" configurationId="JUnit" />
+    <history-entry file="ImperativeMergeSortTest_comparingTwoElementsArrayShouldSucceed - 2016.01.29 at 22h 23m 04s.xml">
+      <configuration name="ImperativeMergeSortTest.comparingTwoElementsArrayShouldSucceed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImperativeSelectionSortTest_comparingSingleElementsArrayShouldSucceed - 2016.01.29 at 19h 04m 47s.xml">
-      <configuration name="ImperativeSelectionSortTest.comparingSingleElementsArrayShouldSucceed" configurationId="JUnit" />
+    <history-entry file="ImperativeMergeSortTest_comparingTwoElementsArrayShouldSucceed - 2016.01.29 at 22h 23m 21s.xml">
+      <configuration name="ImperativeMergeSortTest.comparingTwoElementsArrayShouldSucceed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImperativeSelectionSortTest_comparingTwoElementsArrayShouldSucceed - 2016.01.29 at 19h 04m 48s.xml">
-      <configuration name="ImperativeSelectionSortTest.comparingTwoElementsArrayShouldSucceed" configurationId="JUnit" />
+    <history-entry file="ImperativeMergeSortTest_orderedArrayShouldStillBeOrderedAfterInsertionSort - 2016.01.29 at 22h 23m 38s.xml">
+      <configuration name="ImperativeMergeSortTest.orderedArrayShouldStillBeOrderedAfterInsertionSort" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -829,12 +743,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281768" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3979764" sideWeight="0.5030349" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2950276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2950276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17735043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -842,7 +756,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33701658" sideWeight="0.4969651" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46187845" sideWeight="0.4969651" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -920,17 +834,27 @@
           <properties />
           <option name="timeStamp" value="79" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/google/interview/sort/imperative/ImperativeMergeSort.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/google/interview/sort/imperative/ImperativeMergeSort.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="80" />
+      <option name="time" value="103" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="array[i] &lt; min" language="JAVA" custom="" />
-        <watch expression="array[startsAt]" language="JAVA" custom="" />
-        <watch expression="array[minIndex]" language="JAVA" custom="" />
+        <watch expression="mergedArray" language="JAVA" custom="" />
       </configuration>
     </watches-manager>
   </component>
@@ -1128,14 +1052,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/TestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/google/interview/sort/imperative/ImperativeInsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11881188">
@@ -1154,27 +1070,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/google/interview/sort/imperative/ImperativeSelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7128713">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.5049505">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeSelectionSortTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/functional/FunctionalInsertionSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.93626374">
+          <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeInsertionSortTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/functional/FunctionalBubbleSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07912088">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/TestUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeSelectionSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1868132">
+          <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1186,20 +1120,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/functional/FunctionalInsertionSortTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeInsertionSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11868132">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/imperative/ImperativeMergeSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/google/interview/sort/functional/FunctionalBubbleSortTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/google/interview/sort/imperative/ImperativeMergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05940594">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.14851485">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
