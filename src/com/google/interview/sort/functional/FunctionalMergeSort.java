@@ -57,10 +57,6 @@ public class FunctionalMergeSort {
             throw new NullPointerException("'array' cannot be null");
         }
 
-        if(array.length == 0 || array.length == 1){
-            return array;
-        }
-
         return mergeSort(array);
     }
 }

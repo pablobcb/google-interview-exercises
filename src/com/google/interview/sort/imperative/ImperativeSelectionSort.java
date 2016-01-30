@@ -2,7 +2,7 @@ package com.google.interview.sort.imperative;
 
 public class ImperativeSelectionSort {
 
-    private static int[] moveMinToSortedPortion(final int[] array, final int startsAt){
+    private static void moveMinToSortedPortion(final int[] array, final int startsAt){
         int min = array[startsAt];
         int minIndex = startsAt;
 
@@ -16,8 +16,6 @@ public class ImperativeSelectionSort {
         int swapBuffer = array[startsAt];
         array[startsAt] = array[minIndex];
         array[minIndex] = swapBuffer;
-
-        return array;
     }
 
     public static int[] sort(int[] array){
