@@ -1,5 +1,7 @@
 package com.google.interview.sort.functional;
 
+import static com.google.interview.sort.SortUtils.swap;
+
 public class FunctionalSelectionSort {
 
     private static int findMinIndex (final int cursor, final int[] array, int minIndex){
@@ -17,9 +19,7 @@ public class FunctionalSelectionSort {
     private static int[] insertInRightPosition(final int[] array, final int cursor){
         final int minIndex = findMinIndex(cursor, array, cursor);
 
-        int swapBuffer = array[cursor];
-        array[cursor] = array[minIndex];
-        array[minIndex] = swapBuffer;
+        swap(array, cursor, minIndex);
 
         return array;
     }

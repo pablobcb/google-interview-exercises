@@ -2,26 +2,9 @@ package com.google.interview.sort.functional;
 
 import java.util.Arrays;
 
-//TODO: refactor everything functional to use these helpers
+import static com.google.interview.sort.SortUtils.*;
+
 public class FunctionalMergeSort {
-
-    private static int[] drop(final int[] xs, final int n){
-        return Arrays.copyOfRange(xs, n, xs.length);
-    }
-
-    private static int[] take(final int[] xs, final int n){
-        return Arrays.copyOfRange(xs, 0, n);
-    }
-
-    private static int[] concat(final int[] xs, final int[] ys){
-        int[] destination =  new int[xs.length + ys.length];
-
-        System.arraycopy(xs, 0, destination, 0, xs.length);
-        System.arraycopy(ys, 0, destination, xs.length, ys.length);
-
-        return destination;
-    }
-
     private static int[] merge(final int[] a1, final int[] a2){
         if(a1.length == 0) {
             return a2;

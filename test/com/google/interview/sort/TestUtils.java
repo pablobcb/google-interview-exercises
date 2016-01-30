@@ -2,9 +2,9 @@ package com.google.interview.sort;
 
 public class TestUtils {
 
-    public static final int[] UNORDERED = new int[]{ 3, 11, 2, 0, 333, 222};
+    public static final int[] UNORDERED = new int[]{7, 2, 1, 8, 6, 3, 5, 4};
 
-    public static final int[] ORDERED = new int[]{ 0, 2, 3, 11, 222, 333};
+    public static final int[] ORDERED = new int[]{1, 2, 3, 4, 5, 6, 7, 8};
 
     public static final int[] EMPTY = new int[]{};
 

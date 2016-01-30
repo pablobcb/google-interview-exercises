@@ -1,12 +1,12 @@
 package com.google.interview.sort.imperative;
 
+import static com.google.interview.sort.SortUtils.swap;
+
 public class ImperativeInsertionSort {
 
     private static void insertInPlace(final int[] array, int sortedElementsLeft){
         while((sortedElementsLeft > 0) && (array[sortedElementsLeft - 1] > array[sortedElementsLeft])){
-            int bigger = array[sortedElementsLeft - 1];
-            array[sortedElementsLeft - 1] = array[sortedElementsLeft];
-            array[sortedElementsLeft] = bigger;
+            swap(array, sortedElementsLeft - 1, sortedElementsLeft);
             sortedElementsLeft--;
         }
     }

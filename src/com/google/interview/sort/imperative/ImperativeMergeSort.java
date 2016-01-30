@@ -46,7 +46,7 @@ public class ImperativeMergeSort {
             throw new NullPointerException("'array' cannot be null");
         }
 
-        if(array.length == 0 || array.length == 1){
+        if(array.length < 2){
             return array;
         }
 

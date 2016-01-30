@@ -1,5 +1,7 @@
 package com.google.interview.sort.imperative;
 
+import static com.google.interview.sort.SortUtils.swap;
+
 public class ImperativeBubbleSort {
     /**
      * public method which starts the sorting procedure
@@ -21,9 +23,7 @@ public class ImperativeBubbleSort {
 
                 boolean isGreater = array[currentIndex -1] > array[currentIndex];
                 if(isGreater){
-                    int biggerElement = array[currentIndex -1];
-                    array[currentIndex -1] = array[currentIndex];
-                    array[currentIndex] = biggerElement;
+                    swap(array, currentIndex - 1, currentIndex);
                     hasSwapped = true;
                 }
             }

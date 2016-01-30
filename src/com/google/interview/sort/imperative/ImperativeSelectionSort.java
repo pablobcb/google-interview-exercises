@@ -1,5 +1,7 @@
 package com.google.interview.sort.imperative;
 
+import static com.google.interview.sort.SortUtils.swap;
+
 public class ImperativeSelectionSort {
 
     private static void moveMinToSortedPortion(final int[] array, final int startsAt){
@@ -13,9 +15,7 @@ public class ImperativeSelectionSort {
             }
         }
 
-        int swapBuffer = array[startsAt];
-        array[startsAt] = array[minIndex];
-        array[minIndex] = swapBuffer;
+        swap(array, startsAt, minIndex);
     }
 
     public static int[] sort(int[] array){
@@ -23,7 +23,7 @@ public class ImperativeSelectionSort {
             throw new NullPointerException("'array' cannot be null");
         }
 
-        if(array.length == 0 || array.length == 1){
+        if(array.length < 2){
             return array;
         }
 

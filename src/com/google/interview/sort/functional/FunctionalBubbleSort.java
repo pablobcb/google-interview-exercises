@@ -1,5 +1,7 @@
 package com.google.interview.sort.functional;
 
+import static com.google.interview.sort.SortUtils.swap;
+
 public class FunctionalBubbleSort {
 
     /**
@@ -24,13 +26,7 @@ public class FunctionalBubbleSort {
             /* swaps two elements if the first is greater than the second */
             boolean isGreater = array[currentIndex -1] > array[currentIndex];
             if(isGreater){
-
-                int biggerElement = array[currentIndex -1];
-
-                array[currentIndex -1] = array[currentIndex];
-
-                array[currentIndex] = biggerElement;
-
+                swap(array, currentIndex -1, currentIndex);
                 hasSwapped = true;
             }
 
